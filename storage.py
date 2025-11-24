@@ -1,9 +1,15 @@
 import json
 import os
+import database
 
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'library.json')
 
 def load_library():
+    # Check for MongoDB connection first
+    if os.environ.get('MONGO_URI'):
+        books = database.mongo_get_all_books()
+        return {'books': books}
+
     print(f"DEBUG: Loading library from {DATA_FILE}")
     if not os.path.exists(DATA_FILE):
         return {'books': []}
@@ -14,10 +20,18 @@ def load_library():
         return {'books': []}
 
 def save_library(data):
+    # Check for MongoDB connection first
+    if os.environ.get('MONGO_URI'):
+        return database.mongo_save_library(data)
+
     with open(DATA_FILE, 'w') as f:
         json.dump(data, f, indent=4)
 
 def get_book(book_id):
+    # Check for MongoDB connection first
+    if os.environ.get('MONGO_URI'):
+        return database.mongo_get_book(book_id)
+
     library = load_library()
     for book in library['books']:
         if book['id'] == book_id:

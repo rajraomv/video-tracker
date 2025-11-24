@@ -2,23 +2,18 @@ import uuid
 from storage import load_library, save_library
 from fetcher import fetch_playlist_info, fetch_video_description, parse_sections
 
-def add_book():
-    url = input("Enter Playlist URL: ").strip()
-    title = input("Enter Book Title: ").strip()
-    
+def add_book_logic(url, title):
     print("Fetching playlist info... this may take a moment.")
     info = fetch_playlist_info(url)
     
     if not info:
-        print("Failed to fetch playlist.")
-        return
+        return {"status": "error", "message": "Failed to fetch playlist."}
 
     library = load_library()
     # Check for duplicates
     for book in library['books']:
         if book.get('playlist_url') == url:
-            print(f"Book already exists: '{book['title']}'")
-            return
+            return {"status": "error", "message": f"Book already exists: '{book['title']}'"}
 
     chapters = []
     if 'entries' in info:
@@ -28,10 +23,6 @@ def add_book():
         for i, entry in enumerate(info['entries']):
             if entry:
                 print(f"Processing {i+1}/{total_videos}: {entry.get('title')}")
-                
-                # Fetch description to parse sections
-                # Note: This might be slow for large playlists.
-                # In a real app, we might want to do this asynchronously or on demand.
                 description = fetch_video_description(entry['url'])
                 sections = parse_sections(description)
                 
@@ -54,7 +45,31 @@ def add_book():
     library = load_library()
     library['books'].append(new_book)
     save_library(library)
-    print(f"Book '{title}' added with {len(chapters)} chapters!")
+    return {"status": "success", "message": f"Book '{title}' added with {len(chapters)} chapters!"}
+
+def add_book():
+    url = input("Enter Playlist URL: ").strip()
+    title = input("Enter Book Title: ").strip()
+    result = add_book_logic(url, title)
+    print(result['message'])
+
+def refresh_book_logic(book_id):
+    library = load_library()
+    book = next((b for b in library['books'] if b['id'] == book_id), None)
+    
+    if not book:
+        return {"status": "error", "message": "Book not found"}
+
+    print(f"Refreshing sections for '{book['title']}'...")
+    
+    for i, chapter in enumerate(book['chapters']):
+        print(f"Processing {i+1}/{len(book['chapters'])}: {chapter['title']}")
+        description = fetch_video_description(chapter['url'])
+        sections = parse_sections(description)
+        chapter['sections'] = sections
+        
+    save_library(library)
+    return {"status": "success", "message": "Sections updated successfully!"}
 
 def refresh_sections():
     library = load_library()
@@ -70,26 +85,27 @@ def refresh_sections():
         choice = int(input("Choice: ")) - 1
         if 0 <= choice < len(library['books']):
             book = library['books'][choice]
-            print(f"Refreshing sections for '{book['title']}'...")
-            
-            for i, chapter in enumerate(book['chapters']):
-                print(f"Processing {i+1}/{len(book['chapters'])}: {chapter['title']}")
-                description = fetch_video_description(chapter['url'])
-                sections = parse_sections(description)
-                chapter['sections'] = sections
-                
-            save_library(library)
-            print("Sections updated successfully!")
+            result = refresh_book_logic(book['id'])
+            print(result['message'])
         else:
             print("Invalid selection.")
     except ValueError:
         print("Invalid input.")
 
+def delete_book_logic(book_id):
+    library = load_library()
+    original_count = len(library['books'])
+    library['books'] = [b for b in library['books'] if b['id'] != book_id]
+    
+    if len(library['books']) < original_count:
+        save_library(library)
+        return {"status": "success", "message": "Book deleted"}
+    return {"status": "error", "message": "Book not found"}
+
 def list_books():
     lib = load_library()
     for b in lib['books']:
         print(f"- {b['title']} ({len(b['chapters'])} chapters)")
-        # Show section count for the first chapter as a sample
         if b['chapters']:
             first_chap = b['chapters'][0]
             print(f"  Sample: Chapter 1 has {len(first_chap.get('sections', []))} sections")
