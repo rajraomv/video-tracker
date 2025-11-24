@@ -7,8 +7,12 @@ DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'library.js
 def load_library():
     # Check for MongoDB connection first
     if os.environ.get('MONGO_URI'):
-        books = database.mongo_get_all_books()
-        return {'books': books}
+        try:
+            books = database.mongo_get_all_books()
+            return {'books': books}
+        except Exception as e:
+            print(f"MongoDB connection failed: {e}. Falling back to JSON file.")
+            # Fall through to JSON file
 
     print(f"DEBUG: Loading library from {DATA_FILE}")
     if not os.path.exists(DATA_FILE):
@@ -22,7 +26,11 @@ def load_library():
 def save_library(data):
     # Check for MongoDB connection first
     if os.environ.get('MONGO_URI'):
-        return database.mongo_save_library(data)
+        try:
+            return database.mongo_save_library(data)
+        except Exception as e:
+            print(f"MongoDB save failed: {e}. Falling back to JSON file.")
+            # Fall through to JSON file
 
     with open(DATA_FILE, 'w') as f:
         json.dump(data, f, indent=4)
@@ -30,7 +38,11 @@ def save_library(data):
 def get_book(book_id):
     # Check for MongoDB connection first
     if os.environ.get('MONGO_URI'):
-        return database.mongo_get_book(book_id)
+        try:
+            return database.mongo_get_book(book_id)
+        except Exception as e:
+            print(f"MongoDB get_book failed: {e}. Falling back to JSON file.")
+            # Fall through to JSON file
 
     library = load_library()
     for book in library['books']:
@@ -41,7 +53,11 @@ def get_book(book_id):
 def delete_book(book_id):
     # Check for MongoDB connection first
     if os.environ.get('MONGO_URI'):
-        return database.mongo_delete_book(book_id)
+        try:
+            return database.mongo_delete_book(book_id)
+        except Exception as e:
+            print(f"MongoDB delete_book failed: {e}. Falling back to JSON file.")
+            # Fall through to JSON file
 
     library = load_library()
     original_count = len(library['books'])
