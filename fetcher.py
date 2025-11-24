@@ -7,9 +7,9 @@ def fetch_playlist_info(url):
     Returns a dictionary with 'entries' containing video info.
     """
     ydl_opts = {
-        'extract_flat': True, # Don't download videos, just info
         'quiet': True,
         'ignoreerrors': True,
+        'skip_download': True,  # we only need metadata, not video files
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
