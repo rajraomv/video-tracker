@@ -1,0 +1,1128 @@
+{
+    "books": [
+        {
+            "id": "36e7fe27-347c-4635-8a5c-62b532d7c5c3",
+            "title": "Sri Shirdi Sai Satakamu",
+            "playlist_url": "https://www.youtube.com/playlist?list=PL9gxcZRzzlsYglfIGleXHoYHnI9hUmbJ9",
+            "chapters": [
+                {
+                    "id": "qV4hDYls1Jk",
+                    "title": "Sri Sai Satakamu -  A Brief Introduction",
+                    "url": "https://www.youtube.com/watch?v=qV4hDYls1Jk",
+                    "duration": 168,
+                    "sections": [],
+                    "completed": true
+                },
+                {
+                    "id": "RBbR3ABl8w8",
+                    "title": "Sri Sai Satakamu 1. Daiva Prarthana",
+                    "url": "https://www.youtube.com/watch?v=RBbR3ABl8w8",
+                    "duration": 357,
+                    "sections": []
+                },
+                {
+                    "id": "qRLgC7IWZko",
+                    "title": "Sri Sai Satakamu 2. Sri Sai Stotramu - Part 1of2",
+                    "url": "https://www.youtube.com/watch?v=qRLgC7IWZko",
+                    "duration": 505,
+                    "sections": []
+                },
+                {
+                    "id": "ggJyqZtNDUs",
+                    "title": "Sri Sai Satakamu 2. Sri Sai Stotramu - Part 2of2",
+                    "url": "https://www.youtube.com/watch?v=ggJyqZtNDUs",
+                    "duration": 497,
+                    "sections": []
+                },
+                {
+                    "id": "LtiWYzSDmP0",
+                    "title": "Sri Sai Satakamu 3. Sri Sai Suktulu",
+                    "url": "https://www.youtube.com/watch?v=LtiWYzSDmP0",
+                    "duration": 419,
+                    "sections": []
+                },
+                {
+                    "id": "p-kkFVw6RBk",
+                    "title": "Sri Sai Satakamu . 4. Sri Sai Leelalu - Part 1of3",
+                    "url": "https://www.youtube.com/watch?v=p-kkFVw6RBk",
+                    "duration": 368,
+                    "sections": []
+                },
+                {
+                    "id": "pyej4YaoMhE",
+                    "title": "Sri Sai Satakamu . 4. Sri Sai Leelalu - Part 2of3",
+                    "url": "https://www.youtube.com/watch?v=pyej4YaoMhE",
+                    "duration": 355,
+                    "sections": []
+                },
+                {
+                    "id": "F0IBcjxHZVA",
+                    "title": "Sri Sai Satakamu... 4. Sri Sai Leelalu - Part 3of3",
+                    "url": "https://www.youtube.com/watch?v=F0IBcjxHZVA",
+                    "duration": 381,
+                    "sections": []
+                },
+                {
+                    "id": "6egUesMoW1c",
+                    "title": "Sri Sai Satakamu 5. Kavi Prabodhamulu",
+                    "url": "https://www.youtube.com/watch?v=6egUesMoW1c",
+                    "duration": 474,
+                    "sections": []
+                },
+                {
+                    "id": "Cj5P1ehuP_4",
+                    "title": "Sri Sai Satakamu   6. Mangala Harathulu",
+                    "url": "https://www.youtube.com/watch?v=Cj5P1ehuP_4",
+                    "duration": 560,
+                    "sections": [
+                        {
+                            "start": 0,
+                            "label": "Start / Announcement"
+                        },
+                        {
+                            "start": 12,
+                            "label": "Mangala Harathulu poems"
+                        },
+                        {
+                            "start": 420,
+                            "label": "Conclusion"
+                        }
+                    ]
+                }
+            ],
+            "total_progress": 10
+        },
+        {
+            "id": "5645a762-eb9a-43e7-82b8-ab6e28a3ad28",
+            "title": "Sri Tirumalendra Venkateswara Satakamu",
+            "playlist_url": "https://www.youtube.com/playlist?list=PL9gxcZRzzlsZ0B0bsiw9tYwz3gAHPCh2y",
+            "chapters": [
+                {
+                    "id": "TLt2gLf-WmY",
+                    "title": "\u0c36\u0c4d\u0c30\u0c40 \u0c24\u0c3f\u0c30\u0c41\u0c2e\u0c32\u0c47\u0c02\u0c26\u0c4d\u0c30 \u0c36\u0c24\u0c15\u0c2e\u0c41 - Sri Tirumalendra Satakamu - Intro and Prarthana",
+                    "url": "https://www.youtube.com/watch?v=TLt2gLf-WmY",
+                    "duration": 441,
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Introduction",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "3:55",
+                            "title": "Prarthana",
+                            "seconds": 235
+                        }
+                    ]
+                },
+                {
+                    "id": "tP-BKX7Zc8E",
+                    "title": "2.1 \u0c36\u0c4d\u0c30\u0c40 \u0c24\u0c3f\u0c30\u0c41\u0c2e\u0c32\u0c47\u0c02\u0c26\u0c4d\u0c30 \u0c38\u0c4d\u0c24\u0c4b\u0c24\u0c4d\u0c30\u0c2e\u0c41 .. 2.1 Sri Tirumalendra Stotramu",
+                    "url": "https://www.youtube.com/watch?v=tP-BKX7Zc8E",
+                    "duration": 470,
+                    "sections": []
+                },
+                {
+                    "id": "r8q5YZ72u84",
+                    "title": "2.2 \u0c36\u0c4d\u0c30\u0c40 \u0c24\u0c3f\u0c30\u0c41\u0c2e\u0c32\u0c47\u0c02\u0c26\u0c4d\u0c30 \u0c38\u0c4d\u0c24\u0c4b\u0c24\u0c4d\u0c30\u0c2e\u0c41 .. 2.2 Sri Tirumalendra Stotramu",
+                    "url": "https://www.youtube.com/watch?v=r8q5YZ72u84",
+                    "duration": 464,
+                    "sections": []
+                },
+                {
+                    "id": "AVgSjXP95Cs",
+                    "title": "3. \u0c36\u0c4d\u0c30\u0c40\u0c35\u0c3e\u0c30\u0c3f \u0c35\u0c3f\u0c17\u0c4d\u0c30\u0c39 \u0c35\u0c3f\u0c1a\u0c3e\u0c30\u0c23 ...3. Srivari Vigraha Vicharana",
+                    "url": "https://www.youtube.com/watch?v=AVgSjXP95Cs",
+                    "duration": 305,
+                    "sections": []
+                },
+                {
+                    "id": "QMah07SiWN4",
+                    "title": "\u0c36\u0c4d\u0c30\u0c40 \u0c24\u0c3f\u0c30\u0c41\u0c2e\u0c32\u0c47\u0c02\u0c26\u0c4d\u0c30 \u0c36\u0c24\u0c15\u0c2e\u0c41 - 4. \u0c36\u0c4d\u0c30\u0c40\u0c35\u0c3e\u0c30\u0c3f \u0c2e\u0c42\u0c30\u0c4d\u0c24\u0c40 \u0c2e\u0c02\u0c24\u0c28\u0c2e\u0c41, Sri Tirumalendra Satakamu - 4. Srivari Moorthi",
+                    "url": "https://www.youtube.com/watch?v=QMah07SiWN4",
+                    "duration": 498,
+                    "sections": []
+                },
+                {
+                    "id": "enA0ZnCy9Mo",
+                    "title": "\u0c36\u0c4d\u0c30\u0c40 \u0c24\u0c3f\u0c30\u0c41\u0c2e\u0c32\u0c47\u0c02\u0c26\u0c4d\u0c30 \u0c36\u0c24\u0c15\u0c2e\u0c41 - 5. \u0c36\u0c4d\u0c30\u0c40\u0c35\u0c3e\u0c30\u0c3f \u0c38\u0c47\u0c35\u0c32\u0c41,  Sri Tirumalendra Satakamu - 5. Srivari Sevalu",
+                    "url": "https://www.youtube.com/watch?v=enA0ZnCy9Mo",
+                    "duration": 542,
+                    "sections": []
+                }
+            ],
+            "total_progress": 0
+        },
+        {
+            "id": "ebc721c5-1689-46db-80eb-51c589b321e1",
+            "title": "Festivals",
+            "playlist_url": "https://www.youtube.com/playlist?list=PL9gxcZRzzlsZI4tzJZiA4kJtqtb618wM2",
+            "chapters": [
+                {
+                    "id": "P1xnkXvitN8",
+                    "title": "Ugadi Festival Significance",
+                    "url": "https://www.youtube.com/watch?v=P1xnkXvitN8",
+                    "duration": 381,
+                    "sections": []
+                },
+                {
+                    "id": "84HmU9elJg0",
+                    "title": "Vasanta NavaRatrulu",
+                    "url": "https://www.youtube.com/watch?v=84HmU9elJg0",
+                    "duration": 330,
+                    "sections": []
+                },
+                {
+                    "id": "AsMIPZ7xUc4",
+                    "title": "SriRamaNavami",
+                    "url": "https://www.youtube.com/watch?v=AsMIPZ7xUc4",
+                    "duration": 505,
+                    "sections": []
+                },
+                {
+                    "id": "ybrMc80mfhw",
+                    "title": "Vinayaka Chavithi - Patri 21 Leaves",
+                    "url": "https://www.youtube.com/watch?v=ybrMc80mfhw",
+                    "duration": 638,
+                    "sections": []
+                },
+                {
+                    "id": "RwVs0rVbgeA",
+                    "title": "Dasara Panduga - Devi Navaratrulu",
+                    "url": "https://www.youtube.com/watch?v=RwVs0rVbgeA",
+                    "duration": 1165,
+                    "sections": []
+                },
+                {
+                    "id": "pFrBii60Ox8",
+                    "title": "Deepavali Panduga",
+                    "url": "https://www.youtube.com/watch?v=pFrBii60Ox8",
+                    "duration": 720,
+                    "sections": []
+                },
+                {
+                    "id": "b-3hmA1buJg",
+                    "title": "Nagula Chavithi",
+                    "url": "https://www.youtube.com/watch?v=b-3hmA1buJg",
+                    "duration": 524,
+                    "sections": []
+                },
+                {
+                    "id": "YSDuihM3qgc",
+                    "title": "Sankranti Panduga",
+                    "url": "https://www.youtube.com/watch?v=YSDuihM3qgc",
+                    "duration": 961,
+                    "sections": []
+                },
+                {
+                    "id": "kXQ8hUO7TMo",
+                    "title": "RathaSaptamiFestival",
+                    "url": "https://www.youtube.com/watch?v=kXQ8hUO7TMo",
+                    "duration": 316,
+                    "sections": []
+                },
+                {
+                    "id": "LlBLvrYA1Os",
+                    "title": "Maha Siva Ratri",
+                    "url": "https://www.youtube.com/watch?v=LlBLvrYA1Os",
+                    "duration": 900,
+                    "sections": []
+                },
+                {
+                    "id": "GnpvOVNx3Lg",
+                    "title": "Sri Guru Prarthana! ... \u0c36\u0c4d\u0c30\u0c40 \u0c17\u0c41\u0c30\u0c41 \u0c2a\u0c4d\u0c30\u0c3e\u0c30\u0c4d\u0c25\u0c28!",
+                    "url": "https://www.youtube.com/watch?v=GnpvOVNx3Lg",
+                    "duration": 31,
+                    "sections": []
+                }
+            ],
+            "total_progress": 0
+        },
+        {
+            "id": "b7ce4d7f-7a3b-4460-9ced-f8cba543f179",
+            "title": "Python Beginner Course",
+            "playlist_url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3",
+            "chapters": [
+                {
+                    "id": "QXeEoD0pB3E",
+                    "title": "#0 Python for Beginners | Programming Tutorial",
+                    "url": "https://www.youtube.com/watch?v=QXeEoD0pB3E",
+                    "duration": 66,
+                    "sections": []
+                },
+                {
+                    "id": "hEgO047GxaQ",
+                    "title": "#1 Python Tutorial for Beginners | Introduction to Python",
+                    "url": "https://www.youtube.com/watch?v=hEgO047GxaQ",
+                    "duration": 253,
+                    "sections": []
+                },
+                {
+                    "id": "CScxy0294SE",
+                    "title": "#2 Python Tutorial for Beginners | Python Installation | PyCharm",
+                    "url": "https://www.youtube.com/watch?v=CScxy0294SE",
+                    "duration": 573,
+                    "sections": []
+                },
+                {
+                    "id": "DWgzHbglNIo",
+                    "title": "#3 Python Tutorial for Beginners | Getting Started with Python",
+                    "url": "https://www.youtube.com/watch?v=DWgzHbglNIo",
+                    "duration": 889,
+                    "sections": []
+                },
+                {
+                    "id": "TqPzwenhMj0",
+                    "title": "#4 Python Tutorial for Beginners | Variables in Python",
+                    "url": "https://www.youtube.com/watch?v=TqPzwenhMj0",
+                    "duration": 622,
+                    "sections": []
+                },
+                {
+                    "id": "Eaz5e6M8tL4",
+                    "title": "#5 Python Tutorial for Beginners | List in Python",
+                    "url": "https://www.youtube.com/watch?v=Eaz5e6M8tL4",
+                    "duration": 642,
+                    "sections": []
+                },
+                {
+                    "id": "e8aWaQAb574",
+                    "title": "New AI-Powered DevOps with AWS Live Course V2",
+                    "url": "https://www.youtube.com/watch?v=e8aWaQAb574",
+                    "duration": 134,
+                    "sections": []
+                },
+                {
+                    "id": "Mf7eFtbVxFM",
+                    "title": "#6 Python Tutorial for Beginners | Tuple | Set in Python",
+                    "url": "https://www.youtube.com/watch?v=Mf7eFtbVxFM",
+                    "duration": 401,
+                    "sections": []
+                },
+                {
+                    "id": "2IsF7DEtVjg",
+                    "title": "Dictionary in Python",
+                    "url": "https://www.youtube.com/watch?v=2IsF7DEtVjg",
+                    "duration": 744,
+                    "sections": []
+                },
+                {
+                    "id": "4V14G5_CNGg",
+                    "title": "#7 Python Tutorial for Beginners | Python Set Path in Windows and Help",
+                    "url": "https://www.youtube.com/watch?v=4V14G5_CNGg",
+                    "duration": 353,
+                    "sections": []
+                },
+                {
+                    "id": "1U8TI16AR4s",
+                    "title": "#8 Python Tutorial for Beginners | Python Editor | Sublime Text",
+                    "url": "https://www.youtube.com/watch?v=1U8TI16AR4s",
+                    "duration": 191,
+                    "sections": []
+                },
+                {
+                    "id": "_OZIAHg5i7M",
+                    "title": "#9 Python Tutorial for Beginners | More on Variables in Python",
+                    "url": "https://www.youtube.com/watch?v=_OZIAHg5i7M",
+                    "duration": 553,
+                    "sections": []
+                },
+                {
+                    "id": "gCCVsvgR2KU",
+                    "title": "#10 Python Tutorial for Beginners | Data Types in Python",
+                    "url": "https://www.youtube.com/watch?v=gCCVsvgR2KU",
+                    "duration": 875,
+                    "sections": []
+                },
+                {
+                    "id": "v5MR5JnKcZI",
+                    "title": "#11 Python Tutorial for Beginners | Operators in Python",
+                    "url": "https://www.youtube.com/watch?v=v5MR5JnKcZI",
+                    "duration": 667,
+                    "sections": []
+                },
+                {
+                    "id": "AWAjbtWBzGs",
+                    "title": "#12 Python Tutorial for Beginners | Number System Conversion in Python",
+                    "url": "https://www.youtube.com/watch?v=AWAjbtWBzGs",
+                    "duration": 496,
+                    "sections": []
+                },
+                {
+                    "id": "Bwd9hr5Fz5E",
+                    "title": "Support Telusko",
+                    "url": "https://www.youtube.com/watch?v=Bwd9hr5Fz5E",
+                    "duration": 71,
+                    "sections": []
+                },
+                {
+                    "id": "UAMMEmga0WI",
+                    "title": "#13 Python Tutorial for Beginners | IDLE Previous Command | Clear Screen?",
+                    "url": "https://www.youtube.com/watch?v=UAMMEmga0WI",
+                    "duration": 179,
+                    "sections": []
+                },
+                {
+                    "id": "PyfKCvHALj8",
+                    "title": "#14 Python Tutorial for Beginners | Python BitWise Operators",
+                    "url": "https://www.youtube.com/watch?v=PyfKCvHALj8",
+                    "duration": 762,
+                    "sections": []
+                },
+                {
+                    "id": "EkYrfV7M1ks",
+                    "title": "#15 Python Tutorial for Beginners | Import Math Functions in Python",
+                    "url": "https://www.youtube.com/watch?v=EkYrfV7M1ks",
+                    "duration": 459,
+                    "sections": []
+                },
+                {
+                    "id": "akcEaEH91gI",
+                    "title": "#16 Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+                    "url": "https://www.youtube.com/watch?v=akcEaEH91gI",
+                    "duration": 626,
+                    "sections": []
+                },
+                {
+                    "id": "3dpJrMtxYeo",
+                    "title": "#17 Python Tutorial for Beginners | Swap 2 Variables in Python",
+                    "url": "https://www.youtube.com/watch?v=3dpJrMtxYeo",
+                    "duration": 292,
+                    "sections": []
+                },
+                {
+                    "id": "4OX49nLNPEE",
+                    "title": "#18 Python Tutorial for Beginners | User input in Python | Command Line Input",
+                    "url": "https://www.youtube.com/watch?v=4OX49nLNPEE",
+                    "duration": 719,
+                    "sections": []
+                },
+                {
+                    "id": "PqFKRqpHrjw",
+                    "title": "#19 Python Tutorial for Beginners | If Elif Else Statement in Python",
+                    "url": "https://www.youtube.com/watch?v=PqFKRqpHrjw",
+                    "duration": 938,
+                    "sections": []
+                },
+                {
+                    "id": "HZARImviDxg",
+                    "title": "#20 Python Tutorial for Beginners | While Loop in Python",
+                    "url": "https://www.youtube.com/watch?v=HZARImviDxg",
+                    "duration": 763,
+                    "sections": []
+                },
+                {
+                    "id": "0ZvaDa8eT5s",
+                    "title": "#21 Python Tutorial for Beginners | For Loop in Python",
+                    "url": "https://www.youtube.com/watch?v=0ZvaDa8eT5s",
+                    "duration": 447,
+                    "sections": []
+                },
+                {
+                    "id": "yCZBnjF4_tU",
+                    "title": "#22 Python Tutorial for Beginners | Break Continue Pass in Python",
+                    "url": "https://www.youtube.com/watch?v=yCZBnjF4_tU",
+                    "duration": 620,
+                    "sections": []
+                },
+                {
+                    "id": "JCRpVwtVL4I",
+                    "title": "#22.1 Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+                    "url": "https://www.youtube.com/watch?v=JCRpVwtVL4I",
+                    "duration": 269,
+                    "sections": []
+                },
+                {
+                    "id": "ifu2UlqIoYM",
+                    "title": "Premium Java and spring boot Courses",
+                    "url": "https://www.youtube.com/watch?v=ifu2UlqIoYM",
+                    "duration": 51,
+                    "sections": []
+                },
+                {
+                    "id": "k8SXsT5TLxQ",
+                    "title": "#23 Python Tutorial for Beginners | Printing Patterns in Python",
+                    "url": "https://www.youtube.com/watch?v=k8SXsT5TLxQ",
+                    "duration": 476,
+                    "sections": []
+                },
+                {
+                    "id": "38svC3U7hVo",
+                    "title": "#24 Python Tutorial for Beginners | For Else in Python",
+                    "url": "https://www.youtube.com/watch?v=38svC3U7hVo",
+                    "duration": 312,
+                    "sections": []
+                },
+                {
+                    "id": "SpTAxH_Geow",
+                    "title": "#25 Python Tutorial for Beginners | Prime Number in Python",
+                    "url": "https://www.youtube.com/watch?v=SpTAxH_Geow",
+                    "duration": 251,
+                    "sections": []
+                },
+                {
+                    "id": "6a39OjkCN5I",
+                    "title": "#26 Python Tutorial for Beginners | Array in Python",
+                    "url": "https://www.youtube.com/watch?v=6a39OjkCN5I",
+                    "duration": 957,
+                    "sections": []
+                },
+                {
+                    "id": "9c9qhIcB3NA",
+                    "title": "#27 Python Tutorial for Beginners | Array values from User in Python | Search in Array",
+                    "url": "https://www.youtube.com/watch?v=9c9qhIcB3NA",
+                    "duration": 602,
+                    "sections": []
+                },
+                {
+                    "id": "8LlXhtfNZEQ",
+                    "title": "#28 Python Tutorial for Beginners | Why Numpy? Installing Numpy in Pycharm",
+                    "url": "https://www.youtube.com/watch?v=8LlXhtfNZEQ",
+                    "duration": 418,
+                    "sections": []
+                },
+                {
+                    "id": "NYPKbmE0H6E",
+                    "title": "#29 Python Tutorial for Beginners | Ways of Creating Arrays in Numpy",
+                    "url": "https://www.youtube.com/watch?v=NYPKbmE0H6E",
+                    "duration": 607,
+                    "sections": []
+                },
+                {
+                    "id": "8sF85TyunQA",
+                    "title": "#30 Python Tutorial for Beginners | Copying an Array in Python",
+                    "url": "https://www.youtube.com/watch?v=8sF85TyunQA",
+                    "duration": 591,
+                    "sections": []
+                },
+                {
+                    "id": "Blzp9iuhZqo",
+                    "title": "#31 Python Tutorial for Beginners | Working with Matrix in Python",
+                    "url": "https://www.youtube.com/watch?v=Blzp9iuhZqo",
+                    "duration": 715,
+                    "sections": []
+                },
+                {
+                    "id": "BVfCWuca9nw",
+                    "title": "#32 Python Tutorial for Beginners | Functions in Python",
+                    "url": "https://www.youtube.com/watch?v=BVfCWuca9nw",
+                    "duration": 673,
+                    "sections": []
+                },
+                {
+                    "id": "ijXMGpoMkhQ",
+                    "title": "#33 Python Tutorial for Beginners | Function Arguments in Python",
+                    "url": "https://www.youtube.com/watch?v=ijXMGpoMkhQ",
+                    "duration": 472,
+                    "sections": []
+                },
+                {
+                    "id": "eci9iU_s6Ag",
+                    "title": "#34 Python Tutorial for Beginners | Types of Arguments in Python",
+                    "url": "https://www.youtube.com/watch?v=eci9iU_s6Ag",
+                    "duration": 595,
+                    "sections": []
+                },
+                {
+                    "id": "kB829ciAXo4",
+                    "title": "#35 Python Tutorial for Beginners | Keyworded Variable Length Arguments in Python | **kwargs",
+                    "url": "https://www.youtube.com/watch?v=kB829ciAXo4",
+                    "duration": 292,
+                    "sections": []
+                },
+                {
+                    "id": "QYUbLevwgDQ",
+                    "title": "#36 Python Tutorial for Beginners | Global Keyword in Python | Global vs Local Variable",
+                    "url": "https://www.youtube.com/watch?v=QYUbLevwgDQ",
+                    "duration": 501,
+                    "sections": []
+                },
+                {
+                    "id": "fsAzeNZXvkE",
+                    "title": "#37 Python Tutorial for Beginners | Pass List to a Function in Python",
+                    "url": "https://www.youtube.com/watch?v=fsAzeNZXvkE",
+                    "duration": 259,
+                    "sections": []
+                },
+                {
+                    "id": "7Sv4NmvdHcw",
+                    "title": "#38 Python Tutorial for Beginners | Fibonacci Sequence",
+                    "url": "https://www.youtube.com/watch?v=7Sv4NmvdHcw",
+                    "duration": 481,
+                    "sections": []
+                },
+                {
+                    "id": "gfhtaP5Wq7M",
+                    "title": "#39 Python Tutorial for Beginners | Factorial",
+                    "url": "https://www.youtube.com/watch?v=gfhtaP5Wq7M",
+                    "duration": 311,
+                    "sections": []
+                },
+                {
+                    "id": "XkL3SUioNvo",
+                    "title": "#40 Python Tutorial for Beginners | Recursion",
+                    "url": "https://www.youtube.com/watch?v=XkL3SUioNvo",
+                    "duration": 343,
+                    "sections": []
+                },
+                {
+                    "id": "TqqQld6m6A0",
+                    "title": "#41 Python Tutorial for Beginners | Factorial using Recursion",
+                    "url": "https://www.youtube.com/watch?v=TqqQld6m6A0",
+                    "duration": 297,
+                    "sections": []
+                },
+                {
+                    "id": "hYzwCsKGRrg",
+                    "title": "#42 Python Tutorial for Beginners | Anonymous Functions | Lambda",
+                    "url": "https://www.youtube.com/watch?v=hYzwCsKGRrg",
+                    "duration": 278,
+                    "sections": []
+                },
+                {
+                    "id": "kj850Y8y8FI",
+                    "title": "#43 Python Tutorial for Beginners | Filter Map Reduce",
+                    "url": "https://www.youtube.com/watch?v=kj850Y8y8FI",
+                    "duration": 694,
+                    "sections": []
+                },
+                {
+                    "id": "yNzxXZfkLUA",
+                    "title": "#44 Python Tutorial for Beginners | Decorators",
+                    "url": "https://www.youtube.com/watch?v=yNzxXZfkLUA",
+                    "duration": 453,
+                    "sections": []
+                },
+                {
+                    "id": "1RuMJ53CKds",
+                    "title": "#45 Python Tutorial for Beginners | Modules",
+                    "url": "https://www.youtube.com/watch?v=1RuMJ53CKds",
+                    "duration": 440,
+                    "sections": []
+                },
+                {
+                    "id": "pzNISmtmzcY",
+                    "title": "#46 Python Tutorial for Beginners | Special Variable __name__",
+                    "url": "https://www.youtube.com/watch?v=pzNISmtmzcY",
+                    "duration": 343,
+                    "sections": []
+                },
+                {
+                    "id": "7hjgRn-vfVQ",
+                    "title": "#47 Python Tutorial for Beginners | Special Variable __name__ part 2",
+                    "url": "https://www.youtube.com/watch?v=7hjgRn-vfVQ",
+                    "duration": 428,
+                    "sections": []
+                },
+                {
+                    "id": "gZwPdqC2Os0",
+                    "title": "#48 Python Tutorial for Beginners | Object Oriented Programming | Introduction",
+                    "url": "https://www.youtube.com/watch?v=gZwPdqC2Os0",
+                    "duration": 422,
+                    "sections": []
+                },
+                {
+                    "id": "8O5kX73OkIY",
+                    "title": "#49 Python Tutorial for Beginners | Class and Object",
+                    "url": "https://www.youtube.com/watch?v=8O5kX73OkIY",
+                    "duration": 661,
+                    "sections": []
+                },
+                {
+                    "id": "WIP3-woodlU",
+                    "title": "#50 Python Tutorial for Beginners | __init__ method",
+                    "url": "https://www.youtube.com/watch?v=WIP3-woodlU",
+                    "duration": 406,
+                    "sections": []
+                },
+                {
+                    "id": "ic6wdPxcHc0",
+                    "title": "#51 Python Tutorial for Beginners | Constructor, Self and Comparing Objects",
+                    "url": "https://www.youtube.com/watch?v=ic6wdPxcHc0",
+                    "duration": 664,
+                    "sections": []
+                },
+                {
+                    "id": "RSQjxL5WRNM",
+                    "title": "#52 Python Tutorial for Beginners | Types of Variables",
+                    "url": "https://www.youtube.com/watch?v=RSQjxL5WRNM",
+                    "duration": 296,
+                    "sections": []
+                },
+                {
+                    "id": "lVfGQOzzRCM",
+                    "title": "#53 Python Tutorial for Beginners | Types of Methods",
+                    "url": "https://www.youtube.com/watch?v=lVfGQOzzRCM",
+                    "duration": 698,
+                    "sections": []
+                },
+                {
+                    "id": "b7JzgybKvys",
+                    "title": "#54 Python Tutorial for Beginners | Inner class",
+                    "url": "https://www.youtube.com/watch?v=b7JzgybKvys",
+                    "duration": 444,
+                    "sections": []
+                },
+                {
+                    "id": "Cn7AkDb4pIU",
+                    "title": "#55 Python Tutorial for Beginners | Inheritance",
+                    "url": "https://www.youtube.com/watch?v=Cn7AkDb4pIU",
+                    "duration": 411,
+                    "sections": []
+                },
+                {
+                    "id": "6P-P879BcHQ",
+                    "title": "#56 Python Tutorial for Beginners | Constructor in Inheritance",
+                    "url": "https://www.youtube.com/watch?v=6P-P879BcHQ",
+                    "duration": 508,
+                    "sections": []
+                },
+                {
+                    "id": "P1vH3Pfw6BI",
+                    "title": "#57 Python Tutorial for Beginners | Introduction to Polymorphism",
+                    "url": "https://www.youtube.com/watch?v=P1vH3Pfw6BI",
+                    "duration": 106,
+                    "sections": []
+                },
+                {
+                    "id": "CuK0g8OFzwo",
+                    "title": "#58 Python Tutorial for Beginners | Duck Typing",
+                    "url": "https://www.youtube.com/watch?v=CuK0g8OFzwo",
+                    "duration": 377,
+                    "sections": []
+                },
+                {
+                    "id": "9wd50TKv_OQ",
+                    "title": "#59 Python Tutorial for Beginners | Operator Overloading | Polymorphism",
+                    "url": "https://www.youtube.com/watch?v=9wd50TKv_OQ",
+                    "duration": 869,
+                    "sections": []
+                },
+                {
+                    "id": "CcTzTuIsoFk",
+                    "title": "#60 Python Tutorial for Beginners | Method Overloading and Method Overriding",
+                    "url": "https://www.youtube.com/watch?v=CcTzTuIsoFk",
+                    "duration": 617,
+                    "sections": []
+                },
+                {
+                    "id": "UDmJGvM-OUw",
+                    "title": "Abstract Class and Abstract Method in Python",
+                    "url": "https://www.youtube.com/watch?v=UDmJGvM-OUw",
+                    "duration": 749,
+                    "sections": []
+                },
+                {
+                    "id": "Dyu08G2l71c",
+                    "title": "#61 Python Tutorial for Beginners | Iterator",
+                    "url": "https://www.youtube.com/watch?v=Dyu08G2l71c",
+                    "duration": 648,
+                    "sections": []
+                },
+                {
+                    "id": "mziIj4M_uwk",
+                    "title": "#62 Python Tutorial for Beginners | Generators",
+                    "url": "https://www.youtube.com/watch?v=mziIj4M_uwk",
+                    "duration": 371,
+                    "sections": []
+                },
+                {
+                    "id": "6SPDvPK38tw",
+                    "title": "#63 Python Tutorial for Beginners | Exception Handling",
+                    "url": "https://www.youtube.com/watch?v=6SPDvPK38tw",
+                    "duration": 959,
+                    "sections": []
+                },
+                {
+                    "id": "GqHLztqy0PU",
+                    "title": "#64 Python Tutorial for Beginners | MultiThreading",
+                    "url": "https://www.youtube.com/watch?v=GqHLztqy0PU",
+                    "duration": 885,
+                    "sections": []
+                },
+                {
+                    "id": "aequTxAvQq4",
+                    "title": "#65 Python Tutorial for Beginners | File handling",
+                    "url": "https://www.youtube.com/watch?v=aequTxAvQq4",
+                    "duration": 734,
+                    "sections": []
+                },
+                {
+                    "id": "ECxZtt6n90E",
+                    "title": "#66 Python Tutorial for Beginners | Comments",
+                    "url": "https://www.youtube.com/watch?v=ECxZtt6n90E",
+                    "duration": 223,
+                    "sections": []
+                },
+                {
+                    "id": "0BhSWyDEDC4",
+                    "title": "#67 Python Tutorial for Beginners | is Python Compiled or Interpreted Language?",
+                    "url": "https://www.youtube.com/watch?v=0BhSWyDEDC4",
+                    "duration": 408,
+                    "sections": []
+                },
+                {
+                    "id": "UldZOLylez4",
+                    "title": "Linear Search using Python | Python Tutorial for Beginners 68",
+                    "url": "https://www.youtube.com/watch?v=UldZOLylez4",
+                    "duration": 437,
+                    "sections": []
+                },
+                {
+                    "id": "DE-ye0t0oxE",
+                    "title": "#69 Python Tutorial for Beginners | Binary Search Using Python",
+                    "url": "https://www.youtube.com/watch?v=DE-ye0t0oxE",
+                    "duration": 562,
+                    "sections": []
+                },
+                {
+                    "id": "Vca808JTbI8",
+                    "title": "#70 Python Tutorial for Beginners | Bubble Sort in python | List Sort",
+                    "url": "https://www.youtube.com/watch?v=Vca808JTbI8",
+                    "duration": 441,
+                    "sections": []
+                },
+                {
+                    "id": "5KjapFQNxUo",
+                    "title": "#71 Python Tutorial for Beginners | Selection Sort using Python",
+                    "url": "https://www.youtube.com/watch?v=5KjapFQNxUo",
+                    "duration": 455,
+                    "sections": []
+                },
+                {
+                    "id": "WDEyt2VHpj4",
+                    "title": "#72 MySQL Workbench Setup | Python Database Connection",
+                    "url": "https://www.youtube.com/watch?v=WDEyt2VHpj4",
+                    "duration": 481,
+                    "sections": []
+                },
+                {
+                    "id": "vR5utJvN4JY",
+                    "title": "#73 Python Database Connection | MySQL",
+                    "url": "https://www.youtube.com/watch?v=vR5utJvN4JY",
+                    "duration": 462,
+                    "sections": []
+                },
+                {
+                    "id": "UBLONzkmReE",
+                    "title": "#74 Python | Git | PyCharm | GitHub",
+                    "url": "https://www.youtube.com/watch?v=UBLONzkmReE",
+                    "duration": 653,
+                    "sections": []
+                },
+                {
+                    "id": "udO6gSLXujU",
+                    "title": "#75 Python Tutorial for Beginners |  Python GitHub Code Contribution",
+                    "url": "https://www.youtube.com/watch?v=udO6gSLXujU",
+                    "duration": 557,
+                    "sections": []
+                },
+                {
+                    "id": "qj-V2Ep4coY",
+                    "title": "Zip Function in Python",
+                    "url": "https://www.youtube.com/watch?v=qj-V2Ep4coY",
+                    "duration": 231,
+                    "sections": []
+                },
+                {
+                    "id": "u4kr7EFxAKk",
+                    "title": "Socket Programming Using Python",
+                    "url": "https://www.youtube.com/watch?v=u4kr7EFxAKk",
+                    "duration": 1027,
+                    "sections": []
+                },
+                {
+                    "id": "kU_ZtZhmmEU",
+                    "title": "#76 Python Tutorial for Beginners |  Anaconda Setup",
+                    "url": "https://www.youtube.com/watch?v=kU_ZtZhmmEU",
+                    "duration": 451,
+                    "sections": []
+                },
+                {
+                    "id": "5NU6w5VhmMc",
+                    "title": "#77 Python Tutorial for Beginners |  Jupyter Notebook Setup",
+                    "url": "https://www.youtube.com/watch?v=5NU6w5VhmMc",
+                    "duration": 439,
+                    "sections": []
+                },
+                {
+                    "id": "6-F7nP1DwJs",
+                    "title": "What after Python?",
+                    "url": "https://www.youtube.com/watch?v=6-F7nP1DwJs",
+                    "duration": 341,
+                    "sections": []
+                },
+                {
+                    "id": "02dzgC_Ba70",
+                    "title": "#1 FastAPI - Python Web Framework",
+                    "url": "https://www.youtube.com/watch?v=02dzgC_Ba70",
+                    "duration": 415,
+                    "sections": []
+                },
+                {
+                    "id": "Rf9jbnzt2UU",
+                    "title": "#2 FastAPI Setup in VS Code",
+                    "url": "https://www.youtube.com/watch?v=Rf9jbnzt2UU",
+                    "duration": 782,
+                    "sections": []
+                },
+                {
+                    "id": "Fmw1i1cBYq4",
+                    "title": "#3 FastAPI : Building the Server and Get API",
+                    "url": "https://www.youtube.com/watch?v=Fmw1i1cBYq4",
+                    "duration": 874,
+                    "sections": []
+                },
+                {
+                    "id": "M-DzoNzmJI0",
+                    "title": "#4 FastAPI - Pydantic and Fetching all products",
+                    "url": "https://www.youtube.com/watch?v=M-DzoNzmJI0",
+                    "duration": 734,
+                    "sections": []
+                },
+                {
+                    "id": "2NfTEi1CyYs",
+                    "title": "#5 FastAPI : Fetch by ID and Post Request",
+                    "url": "https://www.youtube.com/watch?v=2NfTEi1CyYs",
+                    "duration": 522,
+                    "sections": []
+                },
+                {
+                    "id": "XMoK33jsgcs",
+                    "title": "#6 FastAPI - Update and Delete Data",
+                    "url": "https://www.youtube.com/watch?v=XMoK33jsgcs",
+                    "duration": 585,
+                    "sections": []
+                },
+                {
+                    "id": "uy4TPngK-8c",
+                    "title": "#7  FastAPI - SQLAlchemy",
+                    "url": "https://www.youtube.com/watch?v=uy4TPngK-8c",
+                    "duration": 499,
+                    "sections": []
+                },
+                {
+                    "id": "WCOOFySgmnQ",
+                    "title": "#8 FastAPI-Database Config",
+                    "url": "https://www.youtube.com/watch?v=WCOOFySgmnQ",
+                    "duration": 542,
+                    "sections": []
+                },
+                {
+                    "id": "V0FUealWanc",
+                    "title": "#9 FastAPI - SQLAlchemy Model Creation",
+                    "url": "https://www.youtube.com/watch?v=V0FUealWanc",
+                    "duration": 417,
+                    "sections": []
+                },
+                {
+                    "id": "lm0uRxLMwb8",
+                    "title": "#10 FastAPI-Initialize Data",
+                    "url": "https://www.youtube.com/watch?v=lm0uRxLMwb8",
+                    "duration": 400,
+                    "sections": []
+                },
+                {
+                    "id": "TzXQwHBDEPc",
+                    "title": "#11 FastAPI-Dependency Injection and Fetch from DB",
+                    "url": "https://www.youtube.com/watch?v=TzXQwHBDEPc",
+                    "duration": 451,
+                    "sections": []
+                },
+                {
+                    "id": "FN_BvbOwur0",
+                    "title": "#12 FastAPI \u2013 Create, Update and  Delete with Database",
+                    "url": "https://www.youtube.com/watch?v=FN_BvbOwur0",
+                    "duration": 624,
+                    "sections": []
+                },
+                {
+                    "id": "IR_EqMAlJZE",
+                    "title": "#13 FastAPI-Running Full Stack Web App",
+                    "url": "https://www.youtube.com/watch?v=IR_EqMAlJZE",
+                    "duration": 582,
+                    "sections": []
+                },
+                {
+                    "id": "SIyxjRJ8VNY",
+                    "title": "#1 Django tutorials | What is Django? | Python Web Framework",
+                    "url": "https://www.youtube.com/watch?v=SIyxjRJ8VNY",
+                    "duration": 313,
+                    "sections": []
+                },
+                {
+                    "id": "VuETrwKYLTM",
+                    "title": "#2 Django tutorials | Setup",
+                    "url": "https://www.youtube.com/watch?v=VuETrwKYLTM",
+                    "duration": 676,
+                    "sections": []
+                },
+                {
+                    "id": "ykpuyNy5oUM",
+                    "title": "#3 Django tutorials | First App in Django - part 1",
+                    "url": "https://www.youtube.com/watch?v=ykpuyNy5oUM",
+                    "duration": 505,
+                    "sections": []
+                },
+                {
+                    "id": "4UMs7DxWn_Q",
+                    "title": "#4 Django tutorials | First App Django - part 2",
+                    "url": "https://www.youtube.com/watch?v=4UMs7DxWn_Q",
+                    "duration": 474,
+                    "sections": []
+                },
+                {
+                    "id": "GNlIe5zvBeQ",
+                    "title": "#5 Django tutorials | Django Template Language | DTL",
+                    "url": "https://www.youtube.com/watch?v=GNlIe5zvBeQ",
+                    "duration": 525,
+                    "sections": []
+                },
+                {
+                    "id": "Kz-G6GnumsI",
+                    "title": "#6 Django tutorials | Django Template Language - part 2",
+                    "url": "https://www.youtube.com/watch?v=Kz-G6GnumsI",
+                    "duration": 240,
+                    "sections": []
+                },
+                {
+                    "id": "_xBMAoDfydg",
+                    "title": "#7 Django tutorials | Addition of Two Numbers in Django",
+                    "url": "https://www.youtube.com/watch?v=_xBMAoDfydg",
+                    "duration": 502,
+                    "sections": []
+                },
+                {
+                    "id": "QD4GlXtf-WU",
+                    "title": "#8 Django tutorials | GET vs POST | HTTP Methods",
+                    "url": "https://www.youtube.com/watch?v=QD4GlXtf-WU",
+                    "duration": 367,
+                    "sections": []
+                },
+                {
+                    "id": "GGkFg52Ot5o",
+                    "title": "#9 Django tutorials | Model View Template in Django | MVT",
+                    "url": "https://www.youtube.com/watch?v=GGkFg52Ot5o",
+                    "duration": 354,
+                    "sections": []
+                },
+                {
+                    "id": "K8Uem148uOU",
+                    "title": "#10 Django tutorials | Static Files - 1",
+                    "url": "https://www.youtube.com/watch?v=K8Uem148uOU",
+                    "duration": 451,
+                    "sections": []
+                },
+                {
+                    "id": "Tt3mgy2ECug",
+                    "title": "#11 Django tutorials | Static Files - 2",
+                    "url": "https://www.youtube.com/watch?v=Tt3mgy2ECug",
+                    "duration": 602,
+                    "sections": []
+                },
+                {
+                    "id": "Huk9tIRD_rQ",
+                    "title": "#12 Django tutorials | Passing Dynamic Data in Html part 1",
+                    "url": "https://www.youtube.com/watch?v=Huk9tIRD_rQ",
+                    "duration": 656,
+                    "sections": []
+                },
+                {
+                    "id": "cHBn87eRFwo",
+                    "title": "#13 Django tutorials | Passing Dynamic Data in Html - part 2",
+                    "url": "https://www.youtube.com/watch?v=cHBn87eRFwo",
+                    "duration": 596,
+                    "sections": []
+                },
+                {
+                    "id": "nuW0o4-dSpo",
+                    "title": "#14 Django tutorials | If Statement",
+                    "url": "https://www.youtube.com/watch?v=nuW0o4-dSpo",
+                    "duration": 330,
+                    "sections": []
+                },
+                {
+                    "id": "7E1M1W9o7PA",
+                    "title": "#15 Django tutorials | ORM | Object Relational Mapper | Theory",
+                    "url": "https://www.youtube.com/watch?v=7E1M1W9o7PA",
+                    "duration": 281,
+                    "sections": []
+                },
+                {
+                    "id": "d--mEqEUybA",
+                    "title": "#16 Django tutorials | Postgres and PgAdmin Setup",
+                    "url": "https://www.youtube.com/watch?v=d--mEqEUybA",
+                    "duration": 306,
+                    "sections": []
+                },
+                {
+                    "id": "69YkZqZgz9s",
+                    "title": "#17 Django tutorials | Models and Migrations",
+                    "url": "https://www.youtube.com/watch?v=69YkZqZgz9s",
+                    "duration": 733,
+                    "sections": []
+                },
+                {
+                    "id": "sU7_reASCAw",
+                    "title": "#18 Django tutorials | Re-Migration",
+                    "url": "https://www.youtube.com/watch?v=sU7_reASCAw",
+                    "duration": 177,
+                    "sections": []
+                },
+                {
+                    "id": "iLhcV7t3zug",
+                    "title": "#19 Django tutorials | Admin Panel",
+                    "url": "https://www.youtube.com/watch?v=iLhcV7t3zug",
+                    "duration": 386,
+                    "sections": []
+                },
+                {
+                    "id": "ExTaxRmDnP8",
+                    "title": "#20 Django tutorials | Add and Fetch data from Database",
+                    "url": "https://www.youtube.com/watch?v=ExTaxRmDnP8",
+                    "duration": 553,
+                    "sections": []
+                },
+                {
+                    "id": "6Q5OVCKufBU",
+                    "title": "#21 Django tutorials | User Registration - 1",
+                    "url": "https://www.youtube.com/watch?v=6Q5OVCKufBU",
+                    "duration": 825,
+                    "sections": []
+                },
+                {
+                    "id": "JXBCw_4gwc0",
+                    "title": "#22 Django tutorials | User Registration - 2",
+                    "url": "https://www.youtube.com/watch?v=JXBCw_4gwc0",
+                    "duration": 620,
+                    "sections": []
+                },
+                {
+                    "id": "Mf_97YaUKag",
+                    "title": "#23 Django tutorials | Passing Messages",
+                    "url": "https://www.youtube.com/watch?v=Mf_97YaUKag",
+                    "duration": 405,
+                    "sections": []
+                },
+                {
+                    "id": "teaeVbcT9BI",
+                    "title": "#24 Django tutorials | User login",
+                    "url": "https://www.youtube.com/watch?v=teaeVbcT9BI",
+                    "duration": 493,
+                    "sections": []
+                },
+                {
+                    "id": "iT15mk4y1iw",
+                    "title": "#25 Django Tutorials | User Logout",
+                    "url": "https://www.youtube.com/watch?v=iT15mk4y1iw",
+                    "duration": 326,
+                    "sections": []
+                }
+            ],
+            "total_progress": 0
+        }
+    ],
+    "stats": {
+        "total_views": 2
+    }
+}

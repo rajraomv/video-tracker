@@ -1,0 +1,121 @@
+import uuid
+from storage import load_library, save_library
+from fetcher import fetch_playlist_info, fetch_video_description, parse_sections
+
+def add_book():
+    url = input("Enter Playlist URL: ").strip()
+    title = input("Enter Book Title: ").strip()
+    
+    print("Fetching playlist info... this may take a moment.")
+    info = fetch_playlist_info(url)
+    
+    if not info:
+        print("Failed to fetch playlist.")
+        return
+
+    library = load_library()
+    # Check for duplicates
+    for book in library['books']:
+        if book.get('playlist_url') == url:
+            print(f"Book already exists: '{book['title']}'")
+            return
+
+    chapters = []
+    if 'entries' in info:
+        total_videos = len(info['entries'])
+        print(f"Found {total_videos} videos. Fetching details and parsing sections...")
+        
+        for i, entry in enumerate(info['entries']):
+            if entry:
+                print(f"Processing {i+1}/{total_videos}: {entry.get('title')}")
+                
+                # Fetch description to parse sections
+                # Note: This might be slow for large playlists.
+                # In a real app, we might want to do this asynchronously or on demand.
+                description = fetch_video_description(entry['url'])
+                sections = parse_sections(description)
+                
+                chapters.append({
+                    'id': entry['id'],
+                    'title': entry['title'],
+                    'url': entry['url'],
+                    'duration': entry.get('duration'),
+                    'sections': sections
+                })
+    
+    new_book = {
+        'id': str(uuid.uuid4()),
+        'title': title,
+        'playlist_url': url,
+        'chapters': chapters,
+        'total_progress': 0
+    }
+    
+    library = load_library()
+    library['books'].append(new_book)
+    save_library(library)
+    print(f"Book '{title}' added with {len(chapters)} chapters!")
+
+def refresh_sections():
+    library = load_library()
+    if not library['books']:
+        print("No books in library.")
+        return
+
+    print("\nSelect a book to refresh sections:")
+    for i, book in enumerate(library['books']):
+        print(f"{i+1}. {book['title']}")
+    
+    try:
+        choice = int(input("Choice: ")) - 1
+        if 0 <= choice < len(library['books']):
+            book = library['books'][choice]
+            print(f"Refreshing sections for '{book['title']}'...")
+            
+            for i, chapter in enumerate(book['chapters']):
+                print(f"Processing {i+1}/{len(book['chapters'])}: {chapter['title']}")
+                description = fetch_video_description(chapter['url'])
+                sections = parse_sections(description)
+                chapter['sections'] = sections
+                
+            save_library(library)
+            print("Sections updated successfully!")
+        else:
+            print("Invalid selection.")
+    except ValueError:
+        print("Invalid input.")
+
+def list_books():
+    lib = load_library()
+    for b in lib['books']:
+        print(f"- {b['title']} ({len(b['chapters'])} chapters)")
+        # Show section count for the first chapter as a sample
+        if b['chapters']:
+            first_chap = b['chapters'][0]
+            print(f"  Sample: Chapter 1 has {len(first_chap.get('sections', []))} sections")
+
+def main():
+    while True:
+        print("\n--- Video Tracker Admin ---")
+        print("1. Add Book")
+        print("2. List Books")
+        print("3. Remove Book (Not Implemented)")
+        print("4. Refresh Sections")
+        print("5. Exit")
+        choice = input("Select option: ")
+        
+        if choice == '1':
+            add_book()
+        elif choice == '2':
+            list_books()
+        elif choice == '3':
+            print("Not implemented yet.")
+        elif choice == '4':
+            refresh_sections()
+        elif choice == '5':
+            break
+        else:
+            print("Invalid option.")
+
+if __name__ == '__main__':
+    main()
