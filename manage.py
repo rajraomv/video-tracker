@@ -2,12 +2,15 @@ import uuid
 from storage import load_library, save_library, delete_book
 from fetcher import fetch_playlist_info, fetch_video_description, parse_sections
 
-def add_book_logic(url, title):
+def add_book_logic(url, title=None):
     print("Fetching playlist info... this may take a moment.")
     info = fetch_playlist_info(url)
     
     if not info:
         return {"status": "error", "message": "Failed to fetch playlist."}
+
+    if not title:
+        title = info.get('title', 'Untitled Playlist')
 
     library = load_library()
     # Check for duplicates

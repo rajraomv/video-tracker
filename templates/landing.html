@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Book Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #8b5cf6;
+            --accent-glow: rgba(139, 92, 246, 0.5);
+            --star-color: rgba(255, 255, 255, 0.8);
+        }
+
+        [data-theme="light"] {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #64748b;
+            --accent: #6366f1;
+            --accent-glow: rgba(99, 102, 241, 0.3);
+            --star-color: rgba(99, 102, 241, 0.4);
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .star {
+            position: absolute;
+            background: var(--star-color);
+            border-radius: 50%;
+            opacity: 0;
+            animation: float 10s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) scale(0);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(-10vh) scale(1);
+                opacity: 0;
+            }
+        }
+
+        .top-controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 15px;
+            z-index: 10;
+        }
+
+        .control-btn {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9em;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background: rgba(125, 125, 125, 0.1);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .control-btn:hover {
+            background: rgba(125, 125, 125, 0.2);
+            color: var(--text-primary);
+            transform: translateY(-2px);
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 5em;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #c084fc, #6366f1);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(192, 132, 252, 0.3);
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        p.subtitle {
+            font-size: 1.5em;
+            color: var(--text-secondary);
+            margin-bottom: 60px;
+            animation: fadeIn 1s ease-out 0.3s backwards;
+        }
+
+        .main-option {
+            background: var(--card-bg);
+            padding: 60px;
+            border-radius: 30px;
+            width: 300px;
+            text-decoration: none;
+            color: var(--text-primary);
+            border: 1px solid rgba(125, 125, 125, 0.1);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            animation: fadeInUp 0.6s ease-out 0.5s backwards;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-option:hover {
+            transform: translateY(-15px) scale(1.05);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2), 0 0 30px var(--accent-glow);
+            border-color: var(--accent);
+            background: var(--card-bg);
+        }
+
+        .icon {
+            font-size: 5em;
+            margin-bottom: 10px;
+            filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.3));
+        }
+
+        .label {
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 1.1em;
+            color: var(--text-secondary);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stars" id="stars"></div>
+
+    <div class="top-controls">
+        <button class="control-btn" onclick="toggleTheme()" id="theme-btn">
+            <span>🌙</span> Theme
+        </button>
+        <a href="/admin" class="control-btn">
+            <span>⚙️</span> Admin
+        </a>
+    </div>
+
+    <div class="container">
+        <h1>Video Book Tracker</h1>
+        <p class="subtitle">Track your viewing journey across YouTube playlists.</p>
+
+        <a href="/library" class="main-option">
+            <div class="icon">📚</div>
+            <div class="label">Enter Library</div>
+            <div class="description">View your books and track progress</div>
+        </a>
+    </div>
+
+    <script>
+        // Theme Toggle
+        const themeBtn = document.getElementById('theme-btn');
+        const html = document.documentElement;
+
+        // Check saved theme
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        html.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        function toggleTheme() {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        }
+
+        function updateThemeIcon(theme) {
+            const span = themeBtn.querySelector('span');
+            span.textContent = theme === 'dark' ? '🌙' : '☀️';
+        }
+
+        // Floating Stars
+        const starsContainer = document.getElementById('stars');
+        const starCount = 30;
+
+        for (let i = 0; i < starCount; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+
+            // Random positioning and sizing
+            const x = Math.random() * 100;
+            const size = Math.random() * 3 + 1;
+            const duration = Math.random() * 10 + 10; // 10-20s
+            const delay = Math.random() * 10;
+
+            star.style.left = `${x}%`;
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.animationDuration = `${duration}s`;
+            star.style.animationDelay = `-${delay}s`; // Start immediately at random positions
+
+            starsContainer.appendChild(star);
+        }
+    </script>
+</body>
+
+</html>

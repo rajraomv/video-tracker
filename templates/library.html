@@ -30,17 +30,6 @@
             margin: 0 auto;
         }
 
-        h1 {
-            text-align: center;
-            font-weight: 600;
-            font-size: 3em;
-            margin-bottom: 50px;
-            background: linear-gradient(to right, #c084fc, #6366f1);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 20px rgba(192, 132, 252, 0.3);
-        }
-
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -165,13 +154,15 @@
             text-align: center;
             color: var(--text-secondary);
             font-size: 1.2em;
-            margin-top: 50px;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <a href="/"
+            style="color: var(--text-secondary); text-decoration: none; display: inline-block; margin-bottom: 20px;">&larr;
+            Home</a>
         <h1>My Video Library</h1>
         <div class="grid">
             {% for book in books %}
