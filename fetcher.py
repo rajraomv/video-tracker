@@ -18,23 +18,25 @@ def fetch_playlist_info(url):
         except Exception as e:
             print(f"Error fetching playlist: {e}")
             return None
-
 def fetch_video_description(video_url):
     """
     Fetches the description of a single video.
+    Returns an empty string if the video metadata cannot be retrieved.
     """
     ydl_opts = {
         'quiet': True,
         'ignoreerrors': True,
-        'skip_download': True, # We only want metadata
+        'skip_download': True,  # we only want metadata
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
             info = ydl.extract_info(video_url, download=False)
-            return info.get('description', '')
+            if info and isinstance(info, dict):
+                return info.get('description', '')
+            return ''
         except Exception as e:
             print(f"Error fetching video description for {video_url}: {e}")
-            return ""
+            return ''
 
 def parse_sections(description):
     """
