@@ -37,3 +37,17 @@ def get_book(book_id):
         if book['id'] == book_id:
             return book
     return None
+
+def delete_book(book_id):
+    # Check for MongoDB connection first
+    if os.environ.get('MONGO_URI'):
+        return database.mongo_delete_book(book_id)
+
+    library = load_library()
+    original_count = len(library['books'])
+    library['books'] = [b for b in library['books'] if b['id'] != book_id]
+    
+    if len(library['books']) < original_count:
+        save_library(library)
+        return True
+    return False

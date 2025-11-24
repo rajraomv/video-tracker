@@ -1,5 +1,5 @@
 import uuid
-from storage import load_library, save_library
+from storage import load_library, save_library, delete_book
 from fetcher import fetch_playlist_info, fetch_video_description, parse_sections
 
 def add_book_logic(url, title):
@@ -93,14 +93,10 @@ def refresh_sections():
         print("Invalid input.")
 
 def delete_book_logic(book_id):
-    library = load_library()
-    original_count = len(library['books'])
-    library['books'] = [b for b in library['books'] if b['id'] != book_id]
-    
-    if len(library['books']) < original_count:
-        save_library(library)
+    success = delete_book(book_id)
+    if success:
         return {"status": "success", "message": "Book deleted"}
-    return {"status": "error", "message": "Book not found"}
+    return {"status": "error", "message": "Book not found or failed to delete"}
 
 def list_books():
     lib = load_library()
