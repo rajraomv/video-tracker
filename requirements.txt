@@ -1,7 +1,5 @@
-flask
-yt-dlp
-
-gunicorn
-pymongo
-dnspython
-certifi
+Flask==3.0.0
+yt-dlp==2023.12.30
+pymongo==4.6.1
+gunicorn==21.2.0
+python-dotenv==1.0.0
