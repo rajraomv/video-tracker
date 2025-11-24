@@ -10,8 +10,8 @@
         :root {
             --bg-color: #0f172a;
             --sidebar-bg: #1e293b;
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
+            --text-primary: #f5e6d3;
+            --text-secondary: #d4a574;
             --accent: #8b5cf6;
             --accent-hover: #7c3aed;
             --border-color: rgba(255, 255, 255, 0.1);
@@ -19,7 +19,8 @@
 
         body {
             font-family: 'Outfit', sans-serif;
-            background: var(--bg-color);
+            background: url('/static/images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: var(--text-primary);
             display: flex;
             height: 100vh;
@@ -231,7 +232,7 @@
 <body>
     <div class="sidebar">
         <div class="sidebar-header">
-            <a href="/" class="back-link">&larr; Back to Library</a>
+            <a href="/library" class="back-link">&larr; Back to Library</a>
             <h2>{{ book.title }}</h2>
         </div>
 

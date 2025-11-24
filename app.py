@@ -1,9 +1,36 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 import os
+from functools import wraps
 from storage import load_library, get_book, save_library
 from manage import add_book_logic, refresh_book_logic, delete_book_logic
 
 app = Flask(__name__)
+app.secret_key = os.environ.get('SECRET_KEY', 'dev_secret_key')
+ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', 'admin')
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if not session.get('logged_in'):
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    error = None
+    if request.method == 'POST':
+        if request.form['password'] == ADMIN_PASSWORD:
+            session['logged_in'] = True
+            return redirect(url_for('admin_view'))
+        else:
+            error = 'Invalid password'
+    return render_template('login.html', error=error)
+
+@app.route('/logout')
+def logout():
+    session.pop('logged_in', None)
+    return redirect(url_for('landing_view'))
 
 @app.route('/')
 def landing_view():
@@ -15,6 +42,7 @@ def library_view():
     return render_template('library.html', books=library['books'])
 
 @app.route('/admin')
+@login_required
 def admin_view():
     library = load_library()
     return render_template('admin.html', books=library['books'])
@@ -65,6 +93,7 @@ def update_progress():
     return jsonify({"status": "success", "progress": book.get('total_progress', 0)})
 
 @app.route('/api/admin/add_book', methods=['POST'])
+@login_required
 def api_add_book():
     data = request.json
     url = data.get('url')
@@ -76,11 +105,13 @@ def api_add_book():
     return jsonify(result)
 
 @app.route('/api/admin/delete_book/<book_id>', methods=['DELETE'])
+@login_required
 def api_delete_book(book_id):
     result = delete_book_logic(book_id)
     return jsonify(result)
 
 @app.route('/api/admin/refresh_all', methods=['POST'])
+@login_required
 def api_refresh_all():
     library = load_library()
     results = []

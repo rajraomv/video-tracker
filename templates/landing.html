@@ -29,7 +29,9 @@
 
         body {
             font-family: 'Outfit', sans-serif;
-            background: var(--bg-color);
+            background: url('/static/images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            background-color: #0f172a;
             color: var(--text-primary);
             margin: 0;
             padding: 0;
@@ -110,7 +112,7 @@
         .container {
             text-align: center;
             max-width: 800px;
-            padding: 40px;
+            padding: 80px 100px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -119,7 +121,7 @@
 
         h1 {
             font-weight: 600;
-            font-size: 5em;
+            font-size: 3.5em;
             margin-bottom: 10px;
             background: linear-gradient(to right, #c084fc, #6366f1);
             -webkit-background-clip: text;
@@ -163,7 +165,7 @@
         }
 
         .icon {
-            font-size: 5em;
+            font-size: 3.5em;
             margin-bottom: 10px;
             filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.3));
         }
@@ -227,6 +229,7 @@
     </div>
 
     <div class="container">
+        <div style="font-family: cursive; color: orange; font-size: 1.5em; margin-bottom: -5px;">Namasthe! 🙏</div>
         <h1>Video Book Tracker</h1>
         <p class="subtitle">Track your viewing journey across YouTube playlists.</p>
 

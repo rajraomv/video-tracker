@@ -76,16 +76,19 @@
                     "duration": 560,
                     "sections": [
                         {
-                            "start": 0,
-                            "label": "Start / Announcement"
+                            "start": "0:00",
+                            "title": "Start / Announcement",
+                            "seconds": 0
                         },
                         {
-                            "start": 12,
-                            "label": "Mangala Harathulu poems"
+                            "start": "0:12",
+                            "title": "Mangala Harathulu poems",
+                            "seconds": 12
                         },
                         {
-                            "start": 420,
-                            "label": "Conclusion"
+                            "start": "7:00",
+                            "title": "Conclusion",
+                            "seconds": 420
                         }
                     ]
                 }
@@ -163,56 +166,339 @@
                     "title": "Ugadi Festival Significance",
                     "url": "https://www.youtube.com/watch?v=P1xnkXvitN8",
                     "duration": 381,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Tel-Lit Signature",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "0:06",
+                            "title": "Ugadi Intro",
+                            "seconds": 6
+                        },
+                        {
+                            "start": "2:20",
+                            "title": "Ugadi Pacchadi",
+                            "seconds": 140
+                        },
+                        {
+                            "start": "4:17",
+                            "title": "Panchanga Sravanam",
+                            "seconds": 257
+                        }
+                    ]
                 },
                 {
                     "id": "84HmU9elJg0",
                     "title": "Vasanta NavaRatrulu",
                     "url": "https://www.youtube.com/watch?v=84HmU9elJg0",
                     "duration": 330,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Start",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "0:07",
+                            "title": "Intro",
+                            "seconds": 7
+                        },
+                        {
+                            "start": "3:03",
+                            "title": "Mahima",
+                            "seconds": 183
+                        }
+                    ]
                 },
                 {
                     "id": "AsMIPZ7xUc4",
                     "title": "SriRamaNavami",
                     "url": "https://www.youtube.com/watch?v=AsMIPZ7xUc4",
                     "duration": 505,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Intro",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "1:43",
+                            "title": "Sri Rama Jananam",
+                            "seconds": 103
+                        },
+                        {
+                            "start": "3:12",
+                            "title": "Sita Rama Kalyanam - Vadapappu / Panakam",
+                            "seconds": 192
+                        },
+                        {
+                            "start": "4:43",
+                            "title": "Sri Rama Namam",
+                            "seconds": 283
+                        },
+                        {
+                            "start": "5:37",
+                            "title": "Ganitha Visesham",
+                            "seconds": 337
+                        },
+                        {
+                            "start": "7:31",
+                            "title": "Viswasaalu",
+                            "seconds": 451
+                        }
+                    ]
                 },
                 {
                     "id": "ybrMc80mfhw",
                     "title": "Vinayaka Chavithi - Patri 21 Leaves",
                     "url": "https://www.youtube.com/watch?v=ybrMc80mfhw",
                     "duration": 638,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Sri Ganesh Puja",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "2:25",
+                            "title": "21 Leaves and Medical Benefits",
+                            "seconds": 145
+                        },
+                        {
+                            "start": "10:05",
+                            "title": "Conclusion",
+                            "seconds": 605
+                        }
+                    ]
                 },
                 {
                     "id": "RwVs0rVbgeA",
                     "title": "Dasara Panduga - Devi Navaratrulu",
                     "url": "https://www.youtube.com/watch?v=RwVs0rVbgeA",
                     "duration": 1165,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "00:00",
+                            "title": "Title and Prayer",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "00:33",
+                            "title": "Dasara Intro",
+                            "seconds": 33
+                        },
+                        {
+                            "start": "04:39",
+                            "title": "Devi Nava Ratrulu",
+                            "seconds": 279
+                        },
+                        {
+                            "start": "05:45",
+                            "title": "Day 1",
+                            "seconds": 345
+                        },
+                        {
+                            "start": "06:45",
+                            "title": "Day 2",
+                            "seconds": 405
+                        },
+                        {
+                            "start": "07:49",
+                            "title": "Day 3",
+                            "seconds": 469
+                        },
+                        {
+                            "start": "08:52",
+                            "title": "Day 4",
+                            "seconds": 532
+                        },
+                        {
+                            "start": "09:54",
+                            "title": "Day 5",
+                            "seconds": 594
+                        },
+                        {
+                            "start": "11:07",
+                            "title": "Day 6",
+                            "seconds": 667
+                        },
+                        {
+                            "start": "12:10",
+                            "title": "Day 7",
+                            "seconds": 730
+                        },
+                        {
+                            "start": "13:24",
+                            "title": "Day 8",
+                            "seconds": 804
+                        },
+                        {
+                            "start": "14:30",
+                            "title": "Day 9",
+                            "seconds": 870
+                        },
+                        {
+                            "start": "15:51",
+                            "title": "Day 10",
+                            "seconds": 951
+                        },
+                        {
+                            "start": "17:24",
+                            "title": "Vijaya Dasami",
+                            "seconds": 1044
+                        }
+                    ]
                 },
                 {
                     "id": "pFrBii60Ox8",
                     "title": "Deepavali Panduga",
                     "url": "https://www.youtube.com/watch?v=pFrBii60Ox8",
                     "duration": 720,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Start",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "0:12",
+                            "title": "Intro",
+                            "seconds": 12
+                        },
+                        {
+                            "start": "1:27",
+                            "title": "Purana Katha",
+                            "seconds": 87
+                        },
+                        {
+                            "start": "2:44",
+                            "title": "Narakasura Vadha",
+                            "seconds": 164
+                        },
+                        {
+                            "start": "4:12",
+                            "title": "Ramayana Katha",
+                            "seconds": 252
+                        },
+                        {
+                            "start": "5:34",
+                            "title": "Kshira Sagara Mathanam",
+                            "seconds": 334
+                        },
+                        {
+                            "start": "6:48",
+                            "title": "Bali Padyami",
+                            "seconds": 408
+                        },
+                        {
+                            "start": "7:38",
+                            "title": "Yama Dvitiya",
+                            "seconds": 458
+                        },
+                        {
+                            "start": "8:51",
+                            "title": "Charitraka Pramukhyata",
+                            "seconds": 531
+                        },
+                        {
+                            "start": "9:27",
+                            "title": "Sampradayalu",
+                            "seconds": 567
+                        },
+                        {
+                            "start": "11:30",
+                            "title": "Santi Slokam",
+                            "seconds": 690
+                        }
+                    ]
                 },
                 {
                     "id": "b-3hmA1buJg",
                     "title": "Nagula Chavithi",
                     "url": "https://www.youtube.com/watch?v=b-3hmA1buJg",
                     "duration": 524,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Start/ Title",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "0:18",
+                            "title": "Intro",
+                            "seconds": 18
+                        },
+                        {
+                            "start": "1:02",
+                            "title": "Nammakaalu",
+                            "seconds": 62
+                        },
+                        {
+                            "start": "2:35",
+                            "title": "Kundalini",
+                            "seconds": 155
+                        },
+                        {
+                            "start": "4:40",
+                            "title": "Prakruti",
+                            "seconds": 280
+                        },
+                        {
+                            "start": "5:46",
+                            "title": "Puranalu",
+                            "seconds": 346
+                        },
+                        {
+                            "start": "6:58",
+                            "title": "Astikudu",
+                            "seconds": 418
+                        }
+                    ]
                 },
                 {
                     "id": "YSDuihM3qgc",
                     "title": "Sankranti Panduga",
                     "url": "https://www.youtube.com/watch?v=YSDuihM3qgc",
                     "duration": 961,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Start",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "0:12",
+                            "title": "Intro",
+                            "seconds": 12
+                        },
+                        {
+                            "start": "1:37",
+                            "title": "Bhogi",
+                            "seconds": 97
+                        },
+                        {
+                            "start": "2:58",
+                            "title": "Sankranti",
+                            "seconds": 178
+                        },
+                        {
+                            "start": "4:32",
+                            "title": "Kanuma",
+                            "seconds": 272
+                        },
+                        {
+                            "start": "5:56",
+                            "title": "Sankranti Sambaralu",
+                            "seconds": 356
+                        },
+                        {
+                            "start": "10:57",
+                            "title": "Sankranti Vantalu",
+                            "seconds": 657
+                        }
+                    ]
                 },
                 {
                     "id": "kXQ8hUO7TMo",
@@ -226,7 +512,38 @@
                     "title": "Maha Siva Ratri",
                     "url": "https://www.youtube.com/watch?v=LlBLvrYA1Os",
                     "duration": 900,
-                    "sections": []
+                    "sections": [
+                        {
+                            "start": "0:00",
+                            "title": "Start",
+                            "seconds": 0
+                        },
+                        {
+                            "start": "0:11",
+                            "title": "Intro",
+                            "seconds": 11
+                        },
+                        {
+                            "start": "3:20",
+                            "title": "Lingodbhavam",
+                            "seconds": 200
+                        },
+                        {
+                            "start": "5:08",
+                            "title": "Kshira Sagara Mathanam",
+                            "seconds": 308
+                        },
+                        {
+                            "start": "6:16",
+                            "title": "Mriga Sira Vrittantam",
+                            "seconds": 376
+                        },
+                        {
+                            "start": "11:20",
+                            "title": "Puja Vidhanam",
+                            "seconds": 680
+                        }
+                    ]
                 },
                 {
                     "id": "GnpvOVNx3Lg",

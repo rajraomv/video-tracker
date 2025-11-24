@@ -10,8 +10,8 @@
         :root {
             --bg-color: #0f172a;
             --card-bg: #1e293b;
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
+            --text-primary: #f5e6d3;
+            --text-secondary: #d4a574;
             --accent: #8b5cf6;
             --accent-hover: #7c3aed;
             --danger: #ef4444;
@@ -19,7 +19,8 @@
 
         body {
             font-family: 'Outfit', sans-serif;
-            background: var(--bg-color);
+            background: url('/static/images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: var(--text-primary);
             margin: 0;
             padding: 40px;
@@ -146,7 +147,7 @@
 
 <body>
     <div class="container">
-        <a href="/"
+        <a href="/library"
             style="color: var(--text-secondary); text-decoration: none; display: inline-block; margin-bottom: 20px;">&larr;
             Back to Library</a>
         <h1>Admin Dashboard</h1>
