@@ -26,13 +26,15 @@ def add_book_logic(url, title=None):
         for i, entry in enumerate(info['entries']):
             if entry:
                 print(f"Processing {i+1}/{total_videos}: {entry.get('title')}")
-                description = fetch_video_description(entry['url'])
+                # Construct video URL from ID if not present
+                video_url = entry.get('url') or f"https://www.youtube.com/watch?v={entry['id']}"
+                description = fetch_video_description(video_url)
                 sections = parse_sections(description)
                 
                 chapters.append({
                     'id': entry['id'],
                     'title': entry['title'],
-                    'url': entry['url'],
+                    'url': video_url,
                     'duration': entry.get('duration'),
                     'sections': sections
                 })
