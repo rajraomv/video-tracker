@@ -18,8 +18,15 @@ def get_db():
 
     try:
         # ca=certifi.where() is often needed for SSL on some platforms
-        _client = MongoClient(mongo_uri, tlsCAFile=certifi.where())
+        # Add timeout to prevent hanging
+        _client = MongoClient(
+            mongo_uri, 
+            tlsCAFile=certifi.where(),
+            serverSelectionTimeoutMS=5000  # 5 second timeout
+        )
         _db = _client.get_database() # Uses the db name from the URI
+        # Test the connection
+        _client.server_info()
         return _db
     except Exception as e:
         print(f"Error connecting to MongoDB: {e}")
